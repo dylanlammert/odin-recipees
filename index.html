@@ -4,16 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li>    <a href="recipes/spaghetti.html">Spaghetti Bolognese Recipe</a></li>
-        <li>    <a href="recipes/lasagna.html">Lasagna Recipe</a></li>
-        <li>    <a href="recipes/pizza.html">Pizza Recipe</a> </li>
-
-    </ul>
+    <h1 class= "heading" >Recipe Book</h1>
     
+    <div class="grid">
+        <div class="card">
+            <h1 class="title">Spaghetti Bolognese Recipe</h1>
+
+            <!-- Image and the styling for it-->
+            <img src="https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/06/THUMB-LINK-2020-2-1200x675.jpg" 
+            ...
+            style=" width: 200px; height: 125px; object-fit: cover;"
+            ...
+            alt="Image of Spaghetti" >
+
+            <div class="content">Spaghetti bolognese is a traditional Italian recipe made of tomato sauce...</div>
+            <div class="button-container" ><a href="recipes/spaghetti.html"><button>View Recipe</button></a></div>
+        </div>
+
+        <div class="card">
+            <h1 class="title">Lasagna Recipe</h1>
+            <img src="https://www.allrecipes.com/thmb/9ErE7RrzzpeOQ3Engk2yWtnLlX4=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg" 
+            alt="Image of Lasagna" 
+            ...
+            style="width: 200px; height:125px; object-fit: cover;"
+            ...
+            >
+            <div class="content">this lasagna recipe because it's incredibly customizable, so you can easily alter the ingredient list to suit your needs.</div>
+            <div class="button-container" ><a href="recipes/lasagna.html"><button>View Recipe</button></a></div>
+        </div>
+
+        <div class="card">
+            <h1 class="title">Pizza Recipe</h1>
+            <img src="https://cdn.loveandlemons.com/wp-content/uploads/2019/06/homemade-pizza.jpg"  
+            ...
+            style=" width: 200px; height: 125px; object-fit: cover;"
+            ...
+            alt=" Image of a pizza."
+            >
+            <div class="content">Tavern pizza, the original Chicago-style pie, has a super thin, crispy crust...</div>
+            <div class="button-container" ><a href="recipes/pizza.html"><button>View Recipe</button></a></div>
+        </div>
+
+    </div>
+
+
 </body>
 </html>
