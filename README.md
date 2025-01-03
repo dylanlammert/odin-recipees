@@ -1,3 +1,4 @@
-Odin-recipes is a project that showcases what I know about html
+# Odin-recipes 
 
-- It is a super simple project using links, lists, and pages
+### 💁Description
+- It is a super simple project using links, lists, and pages to practice HTML
